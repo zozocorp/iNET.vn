@@ -220,6 +220,7 @@ Cập nhật tài khoản email
    "username": "",
    "displayName": "",
    "password": "",
+   "passwordMustChange": false,
    "quota": 0,
    "status": "",
    "emailForward": "",
@@ -230,7 +231,8 @@ Cập nhật tài khoản email
 **emailId (bắt buộc)**: id gói email   
 **username (bắt buộc)**: email của tài khoản   
 **displayName (bắt buộc)**: tên hiển thị của tài khoản  
-**password (bắt buộc)**: mật khẩu(bao gồm ký tự hoa, ký tự đặc biệt và ký tự số)   
+**password (bắt buộc)**: mật khẩu(bao gồm ký tự hoa, ký tự đặc biệt và ký tự số)
+**passwordMustChange(**): đặt là true nếu cho phép thay đổi lại mật khẩu theo yêu cầu
 **quota (bắt buộc)**: Cấp dung lượng cho tài khoản(tính theo MB)   
 **status (bắt buộc)**: trạng thái ['active', 'suspended', 'locked']   
 **emailForward**: chuyển tiếp email, mỗi email chuyển tiếp cách nhau một dấu phẩy  
