@@ -413,8 +413,11 @@ Thông tin tài nguyên gói email
         "distributionListCurent": 0,
         "totalQuotaUsed": 1,
         "recordSPF": "v=spf1 a mx ip4:103.75.184.10 ~all",
+        "recordSPFAddition": "v=spf1 a mx include:_spf.000nethost.com ~all",
         "recordWebMail": "103.75.184.10",
+        "recordWebMailAddition": "103.57.220.29"",
         "recordMx": "mail.example.vn",
+        "recordMxAddition":"mx.000nethost.com",
         "serverReceiveEmail": "mailer-0204.inet.vn",
         "serverSendEmail": "mailer-0204.inet.vn"
    },
